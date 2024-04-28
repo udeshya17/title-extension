@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Title Viewer",
+    "version": "1.0",
+    "description": "Displays the title of the current tab.",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon1.png",
+        "48": "icon2.png",
+        "128": "icon3.png"
+      }
+    }
+  }
+  
